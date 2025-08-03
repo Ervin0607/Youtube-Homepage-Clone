@@ -1,0 +1,50 @@
+.sidebar {
+    width: 80px;
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+
+    background-color: #fff;
+
+    padding-left: 7px;
+}
+
+.sidebar-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+    width: 70px;
+    margin-bottom: 15px; 
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.home-button, .shorts-button, .subs-button, .you-button{
+    height: 70px;
+    width: 60px;
+}
+
+.home-icon {
+    height: 35px;
+}
+.shorts-icon {
+    height: 27px;
+}
+
+.subs-icon {
+    height: 28px;
+}
+
+.you-icon {
+    height: 30px;
+}
+
+.sidebar-element span{
+    font-size: 12px;
+    margin-top: 9px;
+}

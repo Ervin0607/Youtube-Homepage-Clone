@@ -1,0 +1,54 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    padding-top: 60px;
+    padding-left: 80px;
+    background-color: #fdf9f9;
+}
+
+.search {
+    display: block;
+}
+
+.vid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.thumbnail {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.otherthanthumb {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 10px;
+}
+
+.pfp {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.vid-info {
+    vertical-align: top;
+}
+
+.title {
+    font-size: 20px;
+    text-wrap: wrap;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.channel, .info {
+    margin-bottom: 2px;
+    color: rgb(89, 84, 84)
+}
